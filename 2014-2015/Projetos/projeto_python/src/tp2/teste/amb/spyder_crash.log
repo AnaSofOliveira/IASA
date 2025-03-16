@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\spyderlib\spyder.py", line 2098, in main
+    mainwindow = run_spyder(app, options, args)
+  File "C:\Python27\lib\site-packages\spyderlib\spyder.py", line 2012, in run_spyder
+    main.open_external_file(a)
+  File "C:\Python27\lib\site-packages\spyderlib\spyder.py", line 1715, in open_external_file
+    self.open_file(fname, external=True)
+  File "C:\Python27\lib\site-packages\spyderlib\spyder.py", line 1698, in open_file
+    fname = unicode(fname)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xba in position 41: ordinal not in range(128)

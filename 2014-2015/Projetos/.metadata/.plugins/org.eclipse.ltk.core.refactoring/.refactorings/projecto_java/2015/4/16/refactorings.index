@@ -1,0 +1,20 @@
+1429296090601	Rename type 'OperadorLigacao'
+1429297367387	Rename field 'confPuzzle'
+1429297395685	Rename local variable 'confPuzzle'
+1429297400469	Rename local variable 'Puzzle'
+1429297407532	Rename local variable 'confPuzzle'
+1429302114442	Rename type 'puzzle'
+1429302126887	Rename type 'P'
+1429306410616	Infer generic type arguments
+1429378736827	Rename type 'Puzzle'
+1429380584822	Rename type 'resPuzzle'
+1429396339342	Rename type 'Puzzle'
+1429401778704	Infer generic type arguments
+1429409134505	Infer generic type arguments
+1429464638518	Rename type 'Estado'
+1429464825719	Rename type 'E'
+1429467185479	Rename type 'resPuzzle'
+1429469304429	Delete element
+1429469309787	Rename type 'resPuzzle_Me'
+1429474986723	Rename type 'ProcProf'
+1429475004878	Rename type 'ProcProfundidade'
