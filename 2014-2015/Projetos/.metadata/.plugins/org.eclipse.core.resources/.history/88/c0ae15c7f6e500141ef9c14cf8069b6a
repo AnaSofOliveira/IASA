@@ -1,0 +1,30 @@
+package Puzzle.puzzle.modprob;
+
+import Puzzle.pee.Operador;
+
+public class OperadorMoverPosVazia implements Operador<EstadoPuzzle>{
+	
+	private puzzle.Puzzle.Movimento mov;
+	
+	public OperadorMoverPosVazia(puzzle.Puzzle.Movimento mov){
+		this.mov = mov;
+	}
+	
+	@Override
+	public EstadoPuzzle aplicar(EstadoPuzzle estado){
+		Puzzle puzzle = estado.getPuzzle();
+		puzzle.Puzzle novoPuzzle = puzzle.movimentar(mov);
+		
+		if (novoPuzzle != null)
+			return new EstadoPuzzle(puzzle);
+		
+		return null;
+		
+	}
+
+	@Override
+	public double custo(EstadoPuzzle estado, EstadoPuzzle estadoSuc) {		
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}
