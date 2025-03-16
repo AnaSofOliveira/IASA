@@ -1,0 +1,29 @@
+package Puzzle.puzzle.modprob;
+
+import Puzzle.pee.Estado;
+
+
+public class EstadoPuzzle extends Estado {
+	
+	public Puzzle puzzle;
+
+	public EstadoPuzzle(Puzzle puzzleIni) {
+		this.puzzle = puzzleIni;
+	}
+	
+	public Puzzle getPuzzle() {
+		return puzzle;
+	}
+
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return puzzle.hashCode();
+	}
+	
+	@Override
+	public String toString(){
+		return puzzle.toString();
+	}
+	
+}

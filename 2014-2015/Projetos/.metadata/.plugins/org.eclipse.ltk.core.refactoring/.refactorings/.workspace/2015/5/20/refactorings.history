@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;projeto_python/src/agente_prosp/controlo_react/esquema_comport.py&apos;" deleteContents="false" description="Delete resource &apos;projeto_python/src/agente_prosp/controlo_react/esquema_comport.py&apos;" element1="/projeto_python/src/agente_prosp/controlo_react/esquema_comport.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1431466875337"/>
+</session>
